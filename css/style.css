@@ -1,0 +1,415 @@
+/* thanks to http://diveintohtml5.org */
+
+body{
+    font:normal medium 'Lucida Grande', Verdana, 'Gill Sans','Gill Sans MT','Goudy Bookletter 1911','Linux Libertine O','Liberation Serif',Candara,serif;
+    padding:0;
+    line-height:1.75;
+    word-spacing:0.1em;
+    width: 100%;
+    margin:0 auto;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,header,footer,article{
+    margin:0;
+    padding:0;
+}
+
+header, footer, nav, article {
+    display:block; /* html5 elements */
+}
+
+/* background gradient for body */
+body {
+    border: 0px solid green;
+    background: white; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ffffff'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #f5f5f5,  #fff); /* for firefox 3.6+ */
+}
+
+p {
+    text-align: justify;
+    margin:10px;
+}
+table {
+    border-collapse: collapse;
+    border: 0px dashed black;
+    margin:1.8em auto;
+}
+
+td {
+    background-color: #f5f5f5;
+    border: 0px dashed black;
+    vertical-align: top;
+    font-weight:500;
+    width: 50%;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align:left;
+    vertical-align: top;
+
+}
+
+#subjects td {
+    font-weight: bold;
+}
+
+#subjects, #submission, #contact, #cochairs, #tpccochairs{
+    width:90%;
+}
+
+
+
+
+#cochairs td img {margin:0px;}
+
+.kisaara{
+    line-height:.1em;
+}
+
+article h1{
+    margin:0;
+    margin-left:10px;
+}
+
+#submission tr > td:first-child {
+    /*first column of submission table */
+    font-weight:bold;
+}
+
+#wrapper {
+    width: 85%;
+    border: 0px solid black;
+    padding:0 0px;
+    margin:0 auto;
+    overflow: auto;
+}
+
+header {
+    color: #9a0104;
+    border: 1px solid gray;
+    padding: 4px;
+    margin:10px auto;
+
+    background: #f9f9f9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ffffff'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #f5f5f5,  #fff); /* for firefox 3.6+ */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+header h3 {
+    color:black;
+}
+
+.hgroupstyle {
+    float:left;
+    text-align:center;
+    margin:0;
+    margin-left:20px;
+}
+
+.shadow {
+    box-shadow: 3px 3px 7px #777;
+    -webkit-box-shadow: 3px 3px 7px #777;
+    -moz-box-shadow: 3px 3px 7px #777;
+}
+
+
+/* Images */
+
+#logo{
+    float:left;
+    vertical-align:center;
+    z-index:1;
+}
+
+#ieeelogo{
+    float:right;
+    vertical-align:middle;
+}
+
+#ieeeitlogo{
+    float:right;
+    clear:both;
+}
+
+img.istfoto{
+    float:left;
+    width: 30%;
+}
+
+#galata{
+    min-height:40px;
+    margin:0 auto;
+    width:100%;
+    min-width:400px;
+}
+
+img{
+
+    margin:10px;
+}
+
+/* end of images */
+
+nav {
+    clear:both;
+    float:left;
+    width:220px;
+    border: 0px solid black;
+    text-align:left;
+    padding:0px;
+    background-color: white;
+    margin:2px;
+    margin-left:0px;
+}
+/* comment out below for fixed navbar */
+/* nav {    position:fixed;    margin: 200 10;} */
+
+/* nav border and background styles */
+nav{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid black;
+    z-index:1;
+    background : #f9f9f9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ffffff'); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(white), to(#f5f5f5)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #f5f5f5,  #fff); /* for firefox 3.6+ */
+}
+
+nav ul {
+    list-style-position: outside;
+    list-style-type:none;
+}
+nav ul a {
+    padding:3px;
+    padding-left:10px;
+    padding-right:30px;
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+nav ul a:visited {
+
+}
+nav ul a:hover {
+    background:#ddd;
+    color:#808;
+}
+
+ul li:first-child, ul li:last-child {
+    margin-top:12px;
+}
+
+
+footer {
+    clear:both;
+    margin:10px;
+    color:darkgray;
+}
+
+
+a.current {
+    /* background-color: #afa; */
+    color:black;
+}
+
+article{
+    border: 1px solid black;
+    margin:10px;
+    margin-left:240px;
+    margin-right:auto;
+    padding:10px;
+    padding-top:23px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+article h1 {
+    font-size:1.4em;
+}
+
+
+header {
+    overflow:hidden;
+}
+
+
+/* three column styles */
+/* via http://matthewjamestaylor.com/blog/perfect-3-column.htm */
+
+/* 'widths' sub menu */
+#layoutdims {
+    clear:both;
+    /* background:#eee; */
+    border-top:4px solid #000;
+    margin:0;
+    padding:6px 15px !important;
+    text-align:right;
+}
+/* column container */
+.colmask {
+    position:relative;	/* This fixes the IE7 overflow hidden bug */
+    clear:both;
+    float:left;
+    width:100%;			/* width of whole page */
+    overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,.colmid,.colleft {
+    float:left;
+    width:100%;			/* width of page */
+    position:relative;
+}
+.col1,.col2,.col3 {
+    float:left;
+    position:relative;
+    padding:0 0 0em 0;	/* no left and right padding on columns, we just make them narrower instead
+			   only padding top and bottom is included here, make it whatever value you need */
+    overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+/* background:#eee;		/\* right column background colour *\/ */
+}
+.threecol .colmid {
+    right:25%;			/* width of the right column */
+/* background:#fff;		/\* center column background colour *\/ */
+}
+.threecol .colleft {
+    right:50%;			/* width of the middle column */
+/* background:#f4f4f4;	/\* left column background colour *\/ */
+}
+.threecol .col1 {
+    width:46%;			/* width of center column content*/
+    /* (column width minus padding on*/
+    /* either side) */
+    left:102%;			/* 100% plus left padding of center column */
+}
+.threecol .col2 {
+    width:21%;			/* Width of left column content (column width minus padding on either side) */
+    left:31%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+.threecol .col3 {
+    /* float:right; */
+    width:21%;			/* Width of right column content (column width minus padding on either side) */
+    left:85%;			/* Please make note of the brackets here:
+				   (100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+}
+
+/* end of three column styles */
+
+/* own fixes for the header 3 col. */
+.col3{
+    padding-top:.1em;
+}
+.col2{
+    margin-top:.7em;
+}
+
+
+/*------------------------------------*\
+  IPHONE
+  \*------------------------------------*/
+
+@media screen and (max-width: 480px){
+    /* thanks to http://csswizardry.com */
+
+    body{
+        -webkit-text-size-adjust:none;
+        font-family:Helvetica, Arial, Verdana, sans-serif;
+        font-size:100%;
+        padding:0px;
+        width:100%;
+        margin:0 auto;
+    }
+    header h1,h2,h3{
+        font-size:100%!important;
+    }
+
+    header {
+	float:left;
+	margin:0;
+    }
+    div, header, article, nav{
+        clear:both!important;
+        display:block!important;
+        width:99%!important;
+        float:none!important;
+        margin:0 auto!important;
+        padding:0!important;
+    /* overflow:hidden; */
+    }
+
+    header{
+    margin-top:5px!important;}
+
+
+    .col1, .col2, .col3,
+    .colmask,.colright,.colmid,.colleft,.threecol,#layoutdims, .threecol,
+    .col1, .threecol .col2, .threecol .col3, .threecol .colleft, .threecol .colmid{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+        position: static!important;
+    }
+
+    nav, nav li, #nav,#nav li{
+        float:none!important;
+        clear:both!important;
+        margin:10px 0 10px 0!important;
+        display:block;
+        padding-left:3px;
+        padding-right:3px;
+        text-align:left!important;
+    }
+    nav,#nav{
+        border:1px solid #ccc;
+        padding:5px;
+        -webkit-border-radius:5px;
+    }
+    nav li, #nav li{
+        margin:0!important;
+    }
+    nav li a,#nav li a{
+        display:block;
+    }
+    img{
+        /* max-width:100%;          */
+        height:auto;
+
+    }
+    #ieeeitlogo, #ieeelogo, #logo {
+        display:none!important; /**/
+    }
+    /* header, .col1, .col2, .col3, footer{ */
+    /*     display:none!important; */
+    /* } */
+
+    .hgroupstyle {
+        /* float:left; */
+        /* text-align:center; */
+        /* margin:0; */
+        margin-left:0px!important;
+    }
+
+    a.current {
+        background-color: white;
+        color:black;
+    }
+
+    article{
+        margin-bottom:10px;
+    }
+
+
+}
+
