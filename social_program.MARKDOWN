@@ -3,11 +3,6 @@ layout: default
 title: Social Program
 ---
 
-And this is my contact infojkkldsfdsf
+Under construction
 
 
-sdfdsf
-
-dsfds
-
-sfsfds
