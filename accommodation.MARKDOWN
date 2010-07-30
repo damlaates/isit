@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accommodation
-permalink: /Accommodation/
+permalink: /accommodation/
 ---
 
 Under construction
